@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.vaadin.addons</groupId>
-    <version>1.0.0-b3</version>
+    <version>2.0.0-kirona</version>
     <packaging>pom</packaging>
 
-    <name>Markercluster Leaflet plugin wrappers for Java (Vaadin) and GWT, parent POM for loosely coupled projects</name>
+    <name>KIRONA FORK. Markercluster Leaflet plugin wrappers for Java (Vaadin) and GWT, parent POM for loosely coupled projects</name>
 
     <licenses>
         <license>
@@ -23,6 +23,11 @@
             <organization>EC</organization>
             <email>willtemperley@gmail.com</email>
         </contributor>
+        <contributor>
+            <name>Richard Newton</name>
+            <organization>Kirona</organization>
+            <email>richard.newton@kirona.com</email>
+        </contributor>        
     </contributors>
 
     <properties>
@@ -34,4 +39,5 @@
         <module>g-leaflet-markercluster</module>
         <module>v-leaflet-markercluster</module>
     </modules>
+    
 </project>

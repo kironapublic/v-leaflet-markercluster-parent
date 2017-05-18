@@ -4,19 +4,19 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 
-import com.vaadin.data.Item;
-import com.vaadin.data.Property;
-import com.vaadin.data.Property.ValueChangeEvent;
-import com.vaadin.data.util.BeanItem;
+import com.vaadin.v7.data.Item;
+import com.vaadin.v7.data.Property;
+import com.vaadin.v7.data.Property.ValueChangeEvent;
+import com.vaadin.v7.data.util.BeanItem;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.ComponentContainer;
-import com.vaadin.ui.DefaultFieldFactory;
-import com.vaadin.ui.Field;
-import com.vaadin.ui.Form;
-import com.vaadin.ui.FormFieldFactory;
+import com.vaadin.v7.ui.DefaultFieldFactory;
+import com.vaadin.v7.ui.Field;
+import com.vaadin.v7.ui.Form;
+import com.vaadin.v7.ui.FormFieldFactory;
 import com.vaadin.ui.HorizontalSplitPanel;
 import com.vaadin.ui.Layout;
-import com.vaadin.ui.Tree;
+import com.vaadin.v7.ui.Tree;
 import com.vaadin.ui.Window;
 
 /**

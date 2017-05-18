@@ -10,9 +10,9 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.vaadin.addon.leaflet.demoandtestapp.util.TListUi;
 
-import com.vaadin.data.Container;
+import com.vaadin.v7.data.Container;
 
-public class SimpleTest extends AbstractTestBenchTest {
+public class SimpleTest extends AbstractWebDriverCase {
 
     @Test
     public void checkAllTestsOpenWithoutErrors() throws IOException, AssertionError {

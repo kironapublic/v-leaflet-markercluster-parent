@@ -1,10 +1,15 @@
 package org.vaadin.addon.leaflet.testbenchtests;
 
+
+import io.github.bonigarcia.wdm.PhantomJsDriverManager;
+
 import org.eclipse.jetty.server.Server;
 import org.junit.After;
 import org.junit.Before;
+
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+
 import org.vaadin.addon.leaflet.demoandtestapp.util.TServer;
 
 /**
@@ -50,7 +55,8 @@ public class AbstractWebDriverCase {
     }
 
     protected void startBrowser() {
-        driver = new FirefoxDriver();
+        PhantomJsDriverManager.getInstance().setup();
+        driver = new PhantomJSDriver();
     }
 
     protected void sleep(int ms) {

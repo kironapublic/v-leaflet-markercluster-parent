@@ -1,3 +1,5 @@
+Modified by Kirona to build against g-leaflet 1.0.4, v-leaflet 2.0.0, Vaadin 8.0.6, and to test using PhantomJS / Selenium
+
 # Leaflet.markercluster wrappers for Vaadin & GWT
 
 This project provides Java API for both client (GWT, with "g-" prefix) and server (Vaadin) side for the popular Leaflet add-on.
